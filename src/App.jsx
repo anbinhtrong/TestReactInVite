@@ -1,9 +1,10 @@
-import React from "react";
+import './App.css';
+import Post from './components/Post';
 
-import Post from "./components/Post";
-
-class App extends React.Component {
-  render() {
-    return <Post />;
-  }
+function App() {
+  return (
+    <Post />
+  );
 }
+
+export default App;
