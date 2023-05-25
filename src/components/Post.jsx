@@ -4,11 +4,16 @@ import Article from './Article';
 
 class Post extends React.Component {
     render() {
+      const headers = {
+        title: "Computer Hope",
+        subTitle: "Free computer help since",
+        year: 1988
+      };
       return (
-        <div>
-          <Header />
+        <>
+          <Header headerContent={headers} />
           <Article />
-        </div>
+        </>
       );
     }
   }
